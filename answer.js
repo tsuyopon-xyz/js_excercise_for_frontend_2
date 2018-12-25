@@ -8,12 +8,12 @@ titleElement.textContent = 'JSで変更した後のタイトル';
 
 
 /**
- * 課題2: p要素でid属性値が `descripion` のテキスト内容を変更する
+ * 課題2: p要素でid属性値が `description` のテキスト内容を変更する
  *   - innerHTMLを使う
  *     - 「JSで変更した後の説明文」というテキストをセットする
  *   - strong要素を使って「説明文」を強調する
  */
-const descriptionElement = document.getElementById('descripion');
+const descriptionElement = document.getElementById('description');
 descriptionElement.innerHTML = 'JSで変更した後の<strong>説明文</strong>';
 
  /**
